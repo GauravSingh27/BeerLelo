@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">BeerLelo</string>
+
+    <string name="alcohol_content">Alcohol Content: %1$f</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="sort_by">Sort by</string>
+    <string name="name">Name</string>
+    <string name="alcohol_content_low_to_high">Alcohol Content: Low to High</string>
+    <string name="alcohol_content_high_to_low">Alcohol Content: High to Low</string>
+    <string name="search_view_hint">Search beer</string>
+    <string name="filters">Filters</string>
+    <string name="apply">Apply</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="gaurav_singh">by Gaurav Singh</string>
+    <string name="arrow_down">Alcohol: <b>\u2B07 </b></string>
+    <string name="arrow_up">Alcohol: <b> \u2B06 </b></string>
+    <string name="sort">Sort</string>
+    <string name="filter">Filter</string>
+    <string name="reset">Reset</string>
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="quantity">Quantity</string>
+    <string name="add">Add</string>
+</resources>

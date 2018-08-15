@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_bottom_sheet_sort_by_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="@string/sort_by"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_bottom_sheet_sort_by_header">
+
+        <RadioButton
+            android:id="@+id/rb_bottom_sheet_sort_by_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name" />
+
+        <RadioButton
+            android:id="@+id/rb_bottom_sheet_sort_by_abv_asc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alcohol_content_low_to_high" />
+
+        <RadioButton
+            android:id="@+id/rb_bottom_sheet_sort_by_abv_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alcohol_content_high_to_low" />
+    </RadioGroup>
+
+</RelativeLayout>

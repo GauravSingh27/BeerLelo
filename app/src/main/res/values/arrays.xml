@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="beer_icons">
+        <item>@drawable/ic_beer0</item>
+        <item>@drawable/ic_beer1</item>
+        <item>@drawable/ic_beer2</item>
+        <item>@drawable/ic_beer3</item>
+    </array>
+</resources>
